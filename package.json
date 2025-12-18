@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "@openai/realtime-api-beta": "github:openai/openai-realtime-api",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.1.0",
+    "llamaindex": "^0.6.15",
+    "openai": "^4.95.1",
+    "openai-realtime-api": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/node": "^20",
+    "@types/ws": "^8.18.1",
+    "nodemon": "^3.1.9",
+    "tsx": "^4.19.3",
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "tsx server.ts",
+    "dev": "nodemon --exec tsx server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
